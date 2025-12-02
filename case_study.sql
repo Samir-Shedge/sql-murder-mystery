@@ -39,7 +39,7 @@ WHERE a.claimed_location <> kl.room;
 
 
 
--- Cross-check alibis with actual logs
+-- Investigate suspicious calls made around the time
 SELECT 
 	c.call_id,
     c.caller_id,
